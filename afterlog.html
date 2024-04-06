@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO-FITNESS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Sora:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- HEADER -->
+
+
+        <header class="primary-header">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a class="logo">
+                        <i class="fa-solid fa-dumbbell"></i>PRO-FITNESS</a>
+                        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                            <span class="fa-solid fa-bars" aria-hidden="true"></span>
+                            <span class="visually-hidden">Menu</span>
+                          </button>
+                    <nav class="primary-navigation" id="primary-navigation">
+                        <ul aria-label="Primary" role="list" class="nav-list">
+                            <li><a href="#hero-section">Home</a></li>
+                            <li><a href="#programs-section">Programs</a></li>
+                            <li><a href="#pricing-section">Pricing</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn"><a href="logout.php">Logout</a></button>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- HERO-SECTION --> 
+
+
+        <section class="hero-section | padding-block-900" id="hero-section">
+            <div class="container">
+                <div class="flow | text-center-sm-only">
+                    <h1 class="fs-primary-heading fw-bold uppercase"><span class="special-text"> Fitness</span> is your
+                        passion <span class="special-text">with</span> aggression</h1>
+                    <p>we are deeply committed to providing you with the best workout experience possible. 
+                        This commitment drives everything we do, from the moment you walk through our doors 
+                        to the moment you leave feeling accomplished and energized.</p>
+                    <button class="btn"onclick="redirectToLoginPage()">Get Started</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- INTRODUCTION-SECTION -->
+    <section class="introduction | padding-block-900" id= "INTRODUCTION-SECTION">
+        <div class="container background-image">
+                <div class="flow | text-center-sm-only">
+                    <h2 class="fs-secondary-heading fw-bold uppercase">Welcome to <span class="special-text">PRO-FITNESS</PRO-FITNESS></span></h2>
+                    <p  class="fs-500">Where fitness isn't just a part of life—it's a way of life. Our doors are open to all who seek to embark on a journey of self-improvement and wellness.
+                         At our gym, we believe in the power of community.Our expert trainers are dedicated to helping you achieve your best.We're here to guide you every step of the way, from setting your goals to surpassing them.
+                         Join us, and let's redefine what's possible together. Welcome to a place where fitness is more than just a routine—it's a lifestyle.</p>
+                       
+                </div>
+        </div>
+    </section>
+
+
+    <!-- PROGRAMS SECTION -->
+    <section class="programs | padding-block-900" id="programs-section">
+        <div class="container">
+            <h2 class="fs-secondary-heading fw-bold uppercase text-center">Our <span class="special-text">Programs</span></h2>
+            <div class="items-wrapper | padding-block-700">
+                <div class="program-item">
+                    <img src="images/strength.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark special-text">Strength Training</h3>
+                        <p class="fs-500">"Strength training is more than lifting weights—it's about empowering you to become stronger, both physically and mentally."</p>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="images/weight.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark special-text">Weight Training</h3>
+                        <p class="fs-500">"Experience the transformative power of weight training ,where every rep brings you closer to your goals."</p>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="images/loss-fat.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark special-text">Fat Losing</h3>
+                        <p class="fs-500">"Discover effective fat loss strategies,where we're dedicated to helping you achieve a leaner, healthier body."</p>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="images/powerlifting.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark special-text">Powerlifting</h3>
+                        <p class="fs-500">"Unleash your inner strength with powerlifting ,where we support you in lifting heavier and reaching new heights."</p>
+                    </div>
+                </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+
+
+    <section class="pricing | padding-block-900" id="pricing-section">
+        <div class="container">
+            <h2 class="fs-secondary-heading fw-bold uppercase text-center">Our <span class="special-text">PLANS</span></h2>
+            <div class="plans padding-block-700 items-wrapper">
+                <div class="plan-item bg-secondary">
+                    <h4 class="fs-700 fw-semi-bold text-center"> ₹800  <span class="special-text fs-200">/Month</span></h4>
+                    <div class="offer-title">Exclusive Offer</div>
+                    <ul class="package-list">
+                        <li>Unlimited Access</li>
+                        <li>training</li>
+                        <li class="unavailable">cardio</li>
+                        <li class="unavailable">personal trainer</li>
+                        
+                    </ul>
+                    <br>
+                    <div style="text-align: center;"><a href="https://buy.stripe.com/test_cN200v21B6sG75KbII" target="_blank">
+                        <button class="btn">Buy Now</button></div>
+                    </a>
+                </div>
+
+                <div class="plan-item bg-secondary">
+                    <h4 class="fs-700 fw-semi-bold text-center">₹1000 <span class="special-text fs-200">/Month</span></h4>
+                    <div class="offer-title">Exclusive Offer</div>
+                    <ul class="package-list">
+                        <li>Unlimited Access</li>
+                        <li>training</li>
+                        <li>Cardio</li>
+                        <li class="unavailable">Personal trainer</li>
+                        
+                    </ul>
+                    <br>
+                    <div style="text-align: center;"><a href="https://buy.stripe.com/test_cN26oT9u38AO89ObIJ" target="_blank">
+                    <button class="btn">Buy Now</button></a></div>
+                </div>
+                
+                <div class="plan-item bg-secondary">
+                    <h4 class="fs-700 fw-semi-bold text-center">₹1200 <span class="special-text fs-200">/Month</span></h4>
+                    <div class="offer-title">Exclusive Offer</div>
+                    <ul class="package-list">
+                        <li>Unlimited Access</li>
+                        <li>training</li>
+                        <li>Cardio</li>
+                        <li>Personal trainer</li>
+                    
+                    </ul>
+                    <br>
+                    <div style="text-align: center;"><a href="https://buy.stripe.com/test_3csbJdbCb2cq75K146" target="_blank">
+                        <button class="btn">Buy Now</button></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="primary-footer | padding-block-900 bg-secondary">
+        <div class="container">
+            <div class="even-columns text-center-sm-only">
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Follow us</h4>
+                    <ul class="social-icons " role="list">
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook | text-white fs-700"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter | text-white fs-700"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram | text-white fs-700"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin | text-white fs-700"></i></a></li>
+                    </ul>
+                    <a class="logo">
+                        <i class="fa-solid fa-dumbbell"></i>PRO-FITNESS</a>
+                </div>
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Links</h4>
+                    <ul role="list" class="primary-footer-links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Programs</a></li>
+                        <li><a href="">Pricing</a></li>
+                    </ul>
+                </div>
+               <div>
+                <h4 class="fs-700 uppercase fw-bold">Opening Hours</h4>
+                <p class="fs-500">Monday - Saturday: 6am-12pm<br/>Sunday: Closed</p>   
+               </div>
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Quick Contacts</h4>
+                    <ul role="list" class="contact-links">
+                        <li><a href="tel:+919**35***52"><i class="fa-solid fa-phone"></i>+919**35***52</a></li>
+                        <li><a href="mailto:random123@test.com"><i class="fa-solid fa-envelope"></i></i>random123@test.com</a></li>
+                        <li><a href="https://www.google.com/maps/place/Profitness+unisex+gym/@19.2087179,73.1632301,21z/data=!4m6!3m5!1s0x3be795da25e418bb:0xfe4013fc95d36b8a!8m2!3d19.2089195!4d73.1630706!16s%2Fg%2F11s7r897c3?entry=ttu"><i class="fa-solid fa-location-dot"></i>Pro-fitness unisex gym,opp:-Shivneri hospital,Babasai Nagar,Ulhasnagar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h5 class="fs-500 fw-semi-bold text-center"><span class="special-text">
+                <i class="fa-solid fa-dumbbell"></i>PRO-FITNESS</span> Ⓒ 2024 - All Rights Reserved</h5>
+        </div>
+
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
